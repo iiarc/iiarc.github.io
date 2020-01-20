@@ -71,6 +71,7 @@
     background:url(img/clouds.jpg) repeat-x;
     padding:50px 10px 0
 }
+
 /* title */
  .header {
     background:#FFF;
@@ -85,24 +86,29 @@
     color:#FFF;
     height:150px
 }
- .header .left {
-    background:#B3C2C7 url(img/header.jpg) no-repeat;
+  .header .left {
+    background:#B3C2C7 url(img/logo.png) no-repeat;
     font:normal 2.8em "Trebuchet MS",sans-serif;
     line-height:150px;
     text-align:center;
-    width:300px;
+    width:200px;
 }
+
+
  .header .right {
     background: url(img/header.jpg);
     overflow:auto;
-    width: 740px;;
+    width: 800px;;
 }
  .header .right p,.header .right h2 {
     padding:0 16px
 }
  .header .right h2 {
     padding-top:16px;
-    font:normal 1.6em "Trebuchet MS",sans-serif
+    font:normal 1.9em "Trebuchet MS",sans-serif
+}
+.header .right p {
+   font: 1.5em "Trebuchet MS",sans-serif;
 }
 /* navigation */
  .navigation {
@@ -194,7 +200,7 @@
     color:black;
     font:bold 1em sans-serif;
     line-height:39px;
-    padding:0 12px;
+    padding:20px 40px;
     text-align:center
 }
 
