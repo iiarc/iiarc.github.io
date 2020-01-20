@@ -13,7 +13,7 @@
     color:#C60
 }
  body {
-    background:#CCD8E0 url(img/bg.jpg) repeat-x left bottom;
+    background:#CCD8E0 left bottom;
     color:#444;
     font:normal 62.5% Tahoma,sans-serif
 }
@@ -68,7 +68,7 @@
 }
 /* header */
  .top {
-    background:url(img/clouds.jpg) repeat-x;
+    background:rgb(114, 160, 190)  repeat-x;
     padding:50px 10px 0
 }
 
@@ -192,8 +192,10 @@
     list-style:decimal
 }
  .content p {
-    font-family:"Lucida Sans Unicode",sans-serif
+    font-family:"Lucida Sans Unicode",sans-serif;
+    padding: 10px 10px;
 }
+
 /* footer */
  .footer {
     background:url(img/bg.jpg) repeat-x;
