@@ -206,13 +206,11 @@
     text-align:center
 }
 
-.footer .center iframe {
-   
-   max-width: 80%;
-   max-height: 80%;
-   margin-left: -250px;
-   margin-top: 10px;
+.center  {
+   display: block;
+   float: right;
 }
+
 
 .footer .left p{
     font-size: 15px;
