@@ -1,5 +1,8 @@
 
- html {
+* {
+   font-family: Georgia, serif;
+ }
+html {
     min-height:100%
 }
  * {
@@ -194,6 +197,26 @@
  .content p {
     font-family:"Lucida Sans Unicode",sans-serif;
     padding: 10px 10px;
+}
+
+/* table-about */
+.table-about table {
+   display: block;
+   padding-top: 10px;
+   border-collapse: collapse;
+}
+.table-about td, th{
+   font-size: 17px;
+   padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+}
+.table-about td {
+padding: 5px; /* Поля в ячейках */
+vertical-align: top; /* Выравнивание по верхнему краю ячеек */
+}
+td img {
+   width: 150px;
+   height: auto;
 }
 
 /* footer */
